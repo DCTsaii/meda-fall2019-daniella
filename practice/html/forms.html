@@ -1,24 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>HTML Form</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <title>HTML Form</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+  </head>
 
-</head>
-
-<body>
-  <form>
+  <body>
+    <form>
       <label for="story">Write your life's story here:</label>
-<textarea id="story" cols="100" rows="3"></textarea>
-<button>Press here for free money!</button>
-  </form>
+      <textarea id="story" cols="100" rows="3"></textarea>
+      <button>Press here for free money!</button>
+      <br />
+
+      <label>Textbox</label>
+      <input type="text" />
+<br />
+
+      <label>Button</label>
+      <input type="button" value="Enter" /><br />
+
+      <label>Submit Button</label>
+      <input type="submit" />
+      <br />
 
 
-</body>
+      <label>Reset Button</label>
+      <input type="reset" />
+
+    <br />
+
+    <label>Passwords</labels>
+        <input type="password"/>
+    </br>
+
+        <label>File Upload</label>
+        <input type="file"/>
+        
+    <br />
+
+    <label>Checkboxes</label>
+    <input type="checkbox"/>
+    <input type="checkbox"/>
+    <input type="checkbox"/>
+    <input type="checkbox"/>
+    <br />
+
+
+<!-- name attribute is used if you dont want all the buttons selected -->
+    <label>Radio Buttons</label>
+    <p>pizza</p>
+    <input type="radio" name="food" value="pizza"/>
+    <p>sushi</p>
+    <input type="radio" name="food" value="sushi"/>
+    <p>ice cream</p>
+    <input type="radio" name="food" value="ice_cream"/>
+    <p>chocolate</p>
+    <input type="radio" name="food" value="chocolate"/>
+  </body>
 </html>
