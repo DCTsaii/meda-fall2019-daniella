@@ -7,7 +7,7 @@
     <title>Homepage</title>
 
     <style>
-          /* http://meyerweb.com/eric/tools/css/reset/ 
+      /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -139,8 +139,6 @@
         border-spacing: 0;
       }
 
-  
-
       /* CUSTOM CSS */
 
       body {
@@ -148,7 +146,7 @@
       }
 
       header {
-        background-color:darkgrey;
+        background-color: darkgrey;
       }
 
       main {
@@ -157,52 +155,31 @@
         /* to center block element */
         margin-right: auto;
         margin-left: auto;
-        
-        
+
         padding-left: 50px;
-        
       }
 
       footer {
         background-color: lavender;
       }
 
-      div {
-        height: 100px;
-        width: 200px;
-        background-color: black;
-
-        margin: 0;
-        position: fixed;
-        top: 100px;
-        left: 100px;
-        
       
+
         /* margin shorthand: TOP RIGHT BOTTOM LEFT */
         /* margin: TOP/BOTTOM LEFT/RIGHT */
         /* margin: ALL SIDES */
       }
-        
-     body {
-       font-size: 100px;
-     }   
-      
-      h1 {
-        font-size: 500px;
-      }
-      h1 {
-        margin: 0;
-        font-size: 100px;
-        font-size: 10px;
-        font-size: 5px;
+
+      body {
+        font-size: 20px;
       }
 
-      h1 {
-        font-size: 35px;
-      }
+    h1 {
+        font-size: 30px;
+    }
 
       main {
-        font-size: 100px;
+        font-size: 16px;
       }
 
       p {
@@ -211,28 +188,39 @@
       }
 
       /* id="#" # name attribute to single select a sentence/phrase  to change color, dont use numbers or signs in the name attribute */
-#erik {
-    color:crimson;
-}
-#ralph {
-    color:darkgreen;
-}
-#linda {
-    color:darksalmon;
-}
-#mario {
-    color:darkslateblue;
-}
+      #erik {
+        color: crimson;
+      }
+      #ralph {
+        color: darkgreen;
+      }
+      #linda {
+        color: darksalmon;
+      }
+      #mario {
+        color: darkslateblue;
+      }
 
-/* class="" . name attribute to single select a sentence/phrase to change style */
-.cool {
-  font-style: italic;
-}
+      /* class="" . name attribute to single select a sentence/phrase to change style */
+      .cool {
+        font-style: italic;
+      }
 
-.notcool {
-    font-weight:bold;
-}
+      .notcool {
+        font-weight: bold;
+      }
 
+      .faded {
+          opacity: .5;
+      }
+      main h1 {
+font-size:30px;
+      }
+      /* to modify a single style select the location (in this case p from third paragraph) and the element you wan to modify (in this case a from href without modifying the other links) */
+      p a {
+          font-size: 40px;
+      }
+      
     </style>
   </head>
 
@@ -251,16 +239,34 @@
 
     <main>
       <!-- Span element, used to make individual letters selectable by CSS -->
-      <h1>Daniella's <span style="font-size: 72px;">P</span>ortfolio</h1>
+      <h1 class="faded">Daniella's <span style="font-size: 72px;">P</span>ortfolio</h1>
       <p>Hello!</p>
-      <p id="erik" class="cool">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-      <p id="ralph" class="notcool">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p id="linda" class="cool">Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th.</p>
-      <p id="mario" class="notcool">So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.</p>
+      <!--id="#" # name attribute to single select a sentence/phrase  to change color, dont use numbers or signs in the name attribute and it has to be unique to each id name modification -->
+      <!--class="" . name attribute to single select a sentence/phrase to change style-->
+      <p id="erik" class="cool">
+        Lorem ipsum is placeholder text commonly used in the graphic, print, and
+        publishing industries for previewing layouts and visual mockups.
+      </p>
+      <p id="ralph" class="notcool">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p id="linda" class="cool">
+        Creation timelines for the standard <a href="#">lorem ipsum</a> passage vary, with some
+        citing the 15th century and others the 20th.
+      </p>
+      <!-- you can add multiple class by using a space and the name of the class, in this case "faded" -->
+      <p id="mario" class="notcool faded">
+        So how did the classical Latin become so incoherent? According to
+        McClintock, a 15th century typesetter likely scrambled part of Cicero's
+        De Finibus in order to provide placeholder text to mockup various fonts
+        for a type specimen book.
+      </p>
       <div></div>
     </main>
 
     <footer>
+        <h1>Thanks for visiting my website!</h1>
       <p>Copyright &copy; 2019 Daniella Tsai</p>
     </footer>
   </body>
