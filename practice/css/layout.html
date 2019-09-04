@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Homepage</title>
+
+    <style>
+          /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+      /* custom css  to reset css */
+
+      html,
+      body,
+      div,
+      span,
+      applet,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      a,
+      abbr,
+      acronym,
+      address,
+      big,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      s,
+      samp,
+      small,
+      strike,
+      strong,
+      sub,
+      sup,
+      tt,
+      var,
+      b,
+      u,
+      i,
+      center,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      embed,
+      figure,
+      figcaption,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      output,
+      ruby,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+  
+
+      /* CUSTOM CSS */
+
+      body {
+        background-color: lavenderblush;
+      }
+
+      header {
+        background-color:darkgrey;
+      }
+
+      main {
+        background-color: mistyrose;
+        width: 500px;
+        /* to center block element */
+        margin-right: auto;
+        margin-left: auto;
+        
+        
+        padding-left: 50px;
+        
+      }
+
+      footer {
+        background-color: lavender;
+      }
+
+      div {
+        height: 100px;
+        width: 200px;
+        background-color: black;
+
+        margin: 0;
+        position: fixed;
+        top: 100px;
+        left: 100px;
+        
+      
+        /* margin shorthand: TOP RIGHT BOTTOM LEFT */
+        /* margin: TOP/BOTTOM LEFT/RIGHT */
+        /* margin: ALL SIDES */
+      }
+        
+     body {
+       font-size: 100px;
+     }   
+      
+      h1 {
+        font-size: 500px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 100px;
+        font-size: 10px;
+        font-size: 5px;
+      }
+
+      h1 {
+        font-size: 35px;
+      }
+
+      main {
+        font-size: 100px;
+      }
+
+      p {
+        font-size: 20px;
+        color: blueviolet;
+      }
+
+      /* id="#" # name attribute to single select a sentence/phrase  to change color, dont use numbers or signs in the name attribute */
+#erik {
+    color:crimson;
+}
+#ralph {
+    color:darkgreen;
+}
+#linda {
+    color:darksalmon;
+}
+#mario {
+    color:darkslateblue;
+}
+
+/* class="" . name attribute to single select a sentence/phrase to change style */
+.cool {
+  font-style: italic;
+}
+
+.notcool {
+    font-weight:bold;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Div element, used to group up large parts of the web page. -->
+    <header>
+      <nav>
+        <ul>
+          <li><b>Home</b></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Span element, used to make individual letters selectable by CSS -->
+      <h1>Daniella's <span style="font-size: 72px;">P</span>ortfolio</h1>
+      <p>Hello!</p>
+      <p id="erik" class="cool">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+      <p id="ralph" class="notcool">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p id="linda" class="cool">Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th.</p>
+      <p id="mario" class="notcool">So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero's De Finibus in order to provide placeholder text to mockup various fonts for a type specimen book.</p>
+      <div></div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2019 Daniella Tsai</p>
+    </footer>
+  </body>
+</html>
