@@ -1,0 +1,32 @@
+/* color palette 
+#430c05 - coffee color
+#d46f4d - orange
+#ffbf66 - yellow
+#08c5d1 - aquamarine
+#00353f - dark cyan
+#ffffff - white
+*/
+
+
+body {
+   
+}
+a {
+    color:white;
+}
+a:hover {
+    text-decoration-color: none;
+}
+header, footer {
+    background:#430c05;
+    color:#08c5d1;
+}
+header h1, header h2 {
+    color: white;
+}
+.work {
+    background:#ffbf66;
+}
+.education {
+    background:#08c5d1;
+} d
