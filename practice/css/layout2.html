@@ -20,7 +20,8 @@
 
       #header {
         height: 200px;
-        background-color: whitesmoke;
+        /* */
+        background-color: rgb(255, 195, 0);
         margin: 20px;
         margin-top: 0;
       }
@@ -67,13 +68,24 @@
       }
       /* selecting multiple elements for the same rules. */
       #one, #two,#three {
-        background-color: wheat;
+          /* rgba transparacy/opacity value is 0 to 1 */
+        background-color: rgba(144, 12, 63, .5);
         height: 100%;
         width: 30%;
         margin: 10px;
         display: inline-block;
         /* border-radius to round the border -- see example bellow */
         border-radius: 20px;
+      }
+
+      #two {
+          background-image: url(../html/marin.jpg);
+          background-size: cover;
+      }
+
+      #three img {
+          width: 100%;
+          border-radius: 20%;
       }
     </style>
   </head>
@@ -90,7 +102,7 @@
       <div id="footer">
         <div id="one"></div>
         <div id="two"></div>
-        <div id="three"></div>
+        <div id="three"><img src="../html/marin.jpg" alt="Marin view of the golden gate bridge"></div>
       </div>
     </div>
   </body>
