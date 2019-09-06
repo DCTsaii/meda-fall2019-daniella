@@ -6,10 +6,55 @@
 
   <title>CSS Flexbox</title>
   
+  <style>
+      #container {
+          background-color: purple;
+          height: 400px;
+          display: flex;
+          flex-direction: row;
+
+      }
+
+      #box1, #box2, #box3 {
+          background-color:orange;
+          height: 380px;
+          margin: 10px;
+          width: 200px;
+      }
+      /* flex-grow deals with giving the free space available */
+      #box1 {
+         flex-grow: 1;
+         order: 1;
+
+      }
+
+      #box2 {
+          flex-grow: 2;
+          order: 2;
+      }
+
+      #box3 {
+          flex-grow: 1;
+          order: 3;
+      }
+
+
+
+      </style>
 
 </head>
 
 <body>
   
+    <div id="container">
+        <div id="box1"><h1>Box 1</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus autem corrupti, eaque nostrum harum fuga sapiente distinctio eum! Reiciendis nisi illo tenetur alias deleniti explicabo, dolores aliquam delectus necessitatibus?</p></div>
+
+        <div id="box2"><h1>Box 2</h1></div>
+
+        <div id="box3"><h1>Box 3</h1></div>
+
+    </div>
+
+
 </body>
 </html>
