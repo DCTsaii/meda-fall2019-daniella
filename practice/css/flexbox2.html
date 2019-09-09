@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Flexbox 2</title>
+
+    <style>
+      /** doesnt need width because flex is already 100% **/
+      #flex-container {
+        display: flex;
+        height: 400px;
+        overflow: scroll;
+        border: dotted 1px rebeccapurple;
+      }
+
+      #box1,
+      #box2,
+      #box3,
+      #box4 {
+        height: 396px;
+        border: dashed 2px goldenrod;
+        flex-grow: 1;
+        margin: 20px;
+      }
+
+      #box2 {
+        flex-grow: 3;
+      }
+
+      #footer {
+        display: flex;
+        height: 400px;
+        overflow: scroll;
+        border: dotted 1px rebeccapurple;
+      }
+
+      #box5,
+      #box6,
+      #box7 {
+        height: 800px;
+        border: dashed 2px goldenrod;
+        flex-grow: 8;
+        margin: 20px;
+      }
+
+      #box5 {
+        flex-grow: 3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="flex-container">
+      <div id="box1"><h1>Box 1</h1></div>
+
+      <div id="box2"><h1>Box 2</h1></div>
+
+      <div id="box3"><h1>Box 3</h1></div>
+
+      <div id="box4"><h1>Box 4</h1></div>
+    </div>
+
+    <div class="footer">
+      <div id="box5"><h1>Box 5</h1></div>
+
+      <div id="box6"><h1>Box 6</h1></div>
+
+      <div id="box7"><h1>Box 7</h1></div>
+    </div>
+  </body>
+</html>
