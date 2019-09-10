@@ -1,35 +1,35 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(248, 178, 98);
 }
 
 #firstpage {
-    background-color: darkkhaki;
+    background-color: fuchsia;
 }
 
 #secondpage {
-    background-color: gray;
+    background-color: green;
 }
 
 #secondpage h1 {
-    color: yellowgreen;
+    color: red;
 }
 
-header {
-    color: white;
+h1 {
+    font-size: 100px;
 }
 
 main {
-    color:darkred;
-    font-size: 18px;
+    color:cyan;
+    font-size: 24px;
 }
 
 main h1 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 footer {
-    color: green;
-    font-size: 12px;
+    color: yellow;
+    font-size: 18px;
 }
 
 #special {

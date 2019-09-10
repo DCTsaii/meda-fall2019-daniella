@@ -6,7 +6,11 @@
 
   <title>Externally linked CSS Files</title>
 
+  <link rel="stylesheet" href="reset.css" type="text/css" />
+
   <link rel="stylesheet" href="external_1.css" type="text/css" />
+
+  
   
 </head>
 
@@ -18,7 +22,10 @@
         </header>
         
         <main>
-            <p>This is the main text of the website, it should be really long.</p>
+            <!-- Inline css example -->
+            <!-- Inline is only used if you want to make a element important for a quick fix -->
+            <!-- the !important tag -->
+            <p style="font-family: 'Helvitica', sans-serif; font-size: 50px !important;"> This is the main text of the website, it should be really long.</p>
             <h1>This is after the long paragrah</h1>
             <p id="special">This paragraph is special</p>
         </main>
