@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+}
+
+#firstpage {
+    background-color: darkkhaki;
+}
+
+#secondpage {
+    background-color: gray;
+}
+
+#secondpage h1 {
+    color: yellowgreen;
+}
+
+header {
+    color: white;
+}
+
+main {
+    color:darkred;
+    font-size: 18px;
+}
+
+main h1 {
+    font-size: 18px;
+}
+
+footer {
+    color: green;
+    font-size: 12px;
+}
+
+#special {
+    font-style: italic;
+}
