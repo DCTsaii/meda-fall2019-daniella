@@ -41,6 +41,7 @@ main {
     padding-bottom: 20px;
 }
 
+/* > means it's the direct child selector only the direct children will be selected, no grandchild or great grandchild */
 #main-gallery > div {
     background-color:white;
     width:30%;
