@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Review</title>
+  
+<!-- External Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Internal Stylesheets -->
+  <!-- How to write a CSS rule -->
+  <style> 
+      div {
+        /* Rule: value */
+        width: 100px;
+        height:100px;
+        background-color:fuchsia;
+        /* display: block, inline, inline-block, flex, grid; */
+
+      }
+     /* to change color of the hover */
+      div:hover {
+        background-color: cyan;
+      }
+
+      div:active {
+        background-color: chartreuse;
+      }
+
+      div {
+        color:blue;
+        font-size:50px;
+      }
+
+      div {
+        color: red;
+      }
+
+      body div {
+        color:cornflowerblue;
+      }
+
+      #world {
+        color: pink;
+      }
+
+  </style>
+
+</head>
+
+<body>
+  
+  
+  <!-- Inline style-->
+  <body style="color:blue;">
+  <div style="" id="container">
+    <!-- span is a inline element -->
+    <p>Hello <span id="world">World</span>!</p>
+  </div>
+
+</body>
+</html>
