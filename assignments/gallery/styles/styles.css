@@ -54,6 +54,8 @@ header h1 {
     margin: 0 10px 10px 10px;
     text-align: center;
     padding-bottom: 20px;
+    /* Testing display bloack */
+    display: inline-block;
 }
 
 #main-gallery > div {
@@ -123,7 +125,7 @@ header h1 {
 footer {
     background-color: whitesmoke;
     height: 50px;
-    margin-bottom:0;
+    margin-bottom: 0;
 
 }
 
