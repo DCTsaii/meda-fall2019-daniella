@@ -81,6 +81,22 @@ header h1 {
     text-align: center;
 }
 
+#contact {
+    background-color:#3D403A;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#get-in-touch {
+    /* Coming Soon */
+    background-color:#8FA6A1;
+    color:#3D403A;
+    height: auto;
+    text-align: center;
+}
+
 /* Main End */
 
 /* Footer Start */

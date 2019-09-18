@@ -8,6 +8,16 @@ monotone trial color palette:
 #c7ac8d - div
 #fcf0d2 - text
 
+update: after trying out the colors, I have decided to not pursue with the trial color palette choices.
+
+new color palette:
+#3D403A
+#555954
+#8FA6A1
+
+source: color.adobe.com/explore (trends -> most popular -> Pensacola Beach _ Emerald Coast Landscape Photography » Emerald Coast Images)
+
+I guess this color palette name title it still stay true to my "cloudy beach" theme. 
 
 2) For font, I really like monospace font style - it looks simple, easy to read yet stylish.
 
@@ -50,3 +60,4 @@ dislike:
 
 5) Wireframe:I'm going for a more aesthetic and minimalist design so I plan to minimize the usage of the scrollbar.
 
+Update: I made some changes to keep it simple so it does not look like the wireframe I drew. I tried having the nav bar in bottom of index.html but it didn't look good.
