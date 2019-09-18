@@ -58,6 +58,9 @@ header h1 {
 #main-logo {
     height: auto;
     text-align: center;
+    background-color:#3D403A;
+    padding: 15px;
+    margin: 10px;
 }
 
 #about p {
@@ -71,6 +74,9 @@ header h1 {
 #projects {
     height: auto;
     text-align:center;
+    background-color:#3D403A;
+    padding: 15px;
+    margin: 10px;
 }
 
 #gallery {
