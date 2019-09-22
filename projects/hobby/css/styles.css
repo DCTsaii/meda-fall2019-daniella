@@ -1,0 +1,95 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IBM+Plex+Mono|Source+Code+Pro&display=swap');
+
+body {
+    background-color:#3D403A;
+    font-family: "IBM Plex Mono", "Source Code Pro", monospace;
+
+}
+
+#container {
+    background-color:#555954;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin: 0 auto;
+}
+
+/* Header Start */
+
+header h1 {
+    color:#8FA6A1;
+    height:auto;
+    margin-top: 0;
+    font-family: "Source Code Pro", monospace;
+    font-size:40px;
+    text-align: center;
+
+}
+
+/* Header End */
+
+/* Main Start */
+
+#main-logo {
+    height: auto;
+    text-align: center;
+    background-color:#3D403A;
+    padding: 15px;
+    margin: 10px;
+}
+
+#about p {
+    background-color:#3D403A;
+    color:#8FA6A1;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+#projects {
+    height: auto;
+    text-align:center;
+    background-color:#3D403A;
+    padding: 15px;
+    margin: 10px;
+}
+
+#gallery {
+    /* Coming Soon */
+    background-color:#8FA6A1;
+    color:#3D403A;
+    height: auto;
+    text-align: center;
+}
+
+#contact {
+    background-color:#3D403A;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#get-in-touch {
+    /* Coming Soon */
+    background-color:#8FA6A1;
+    color:#3D403A;
+    height: auto;
+    text-align: center;
+}
+
+/* Main End */
+
+/* Footer Start */
+
+footer {
+    font-size: 16px;
+    color:#555954;
+    text-align: center;
+    height: 50px;
+    -webkit-margin-top-collapse: 10px;
+}
+
+/* Footer End */
