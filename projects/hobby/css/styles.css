@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IBM+Plex+Mono|Source+Code+Pro&display=swap');
 
 body {
-    background-color:#98DDDE;
+    background-color:#464646;
     font-family: "IBM Plex Mono", "Source Code Pro", monospace;
 
 }
 
 #container {
-    background-color:#F5DB78;
+    background-color:#A1A194;
     width: 80%;
     padding-top: 10px;
     padding-bottom:10px;
@@ -19,8 +19,8 @@ body {
 /* Header Start */
 
 #header h1 {
-    background-color: white;
-    color:#273240;
+    background-color: #5B605F;
+    color:whitesmoke;
     height:auto;
     margin: 5px;
     font-family: "Source Code Pro", monospace;
@@ -40,7 +40,7 @@ body {
     padding: 5px 10px 5px 10px;
 }
 
-#pexel1, #folder-cover, #jfk {
+#pexel1, #folder-cover, #jfk, #pexel3 {
     float: right;
     margin: 10px;
 }
@@ -53,31 +53,32 @@ body {
 #flexbox {
     display: inline-block;
     height: auto;
-    align-items: center;
 }
 
 #national-park, #national-park-coin {
     display: flex;
     justify-content: center;
+    text-align: center;
     
 }
 
+h3 {
+    color:whitesmoke;
+}
 
-
-
-
-
+a {
+    text-decoration: none;
+}
 
 /* Main End */
 
 /* Footer Start */
 
 footer {
+    background-color: #5B605F;
     font-size: 16px;
-    color:#555954;
+    color:whitesmoke;
     text-align: center;
-    height: 50px;
-    -webkit-margin-top-collapse: 10px;
 }
 
 /* Footer End */
