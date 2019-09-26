@@ -134,10 +134,71 @@ createdVariable = 100;
 
 // Order of Operations
 
-// Use PEMDAS math method
+// Use PEMDAS math method (division, multiplication, addition and subtraction)
 var someValue = 10 - 36 / 6 * 3;
 // 8, 
 
 // 8, -8
 
 console.log(someValue);
+
+var otherValue = 10 + (10 + ( (3 + 4) * 2 ));
+var otherValue2 = 34;
+
+// If Else statement
+// lowcase if
+
+if (true) {
+    console.log("this is ture!");
+} 
+
+// Terminal only run is if its true boolean. It will not run if its false boolean.
+
+if (true) {}
+
+if (false) {}
+
+// Conditional Operators, Comparitors
+// all of these ends up being a boolean value: true or false.
+/*
+== Both sides are equal
+=> Left side is equal or bigger
+=< Left side is equal or smaller
+< Left side is smaller
+> Left side is bigger
+!= Not equal to
+! Flip Boolean
+*/
+
+
+10 == 100; // false
+
+9 == 9; // true
+
+"hello" == "hello"; // true
+
+"Hello" == "hello"; // false
+
+"hello" == 100; // false
+
+100 > 50; // true
+100 >= 100; // true
+101 <= 100; // false
+1 > 10; // false
+1 < 10; // true
+
+100 != 50; // true
+50 != 50; // false
+
+!false; // true
+!true; // false
+
+true != true; // false
+
+false == false; // true
+
+var age = 100029;
+
+if (age >= 21) {
+    console.log("Congrats, you can now drink soda.")
+}
