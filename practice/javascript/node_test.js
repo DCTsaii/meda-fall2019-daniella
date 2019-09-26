@@ -107,3 +107,37 @@ var other = "another string" * 100;
 
 var wholeSentence = "My name is " + "Eduardo!";
 console.log(wholeSentence);
+
+// Good use of concatination. Concatination lets you build things together.
+var userName = "Eduardo Garcia";
+var sentencePart1 = "Hello there,";
+var sentencePart2 = ", how are you doing?";
+
+var complete = sentencePart1 + userName + sentencePart2;
+console.log(complete);
+
+// Using variables to do math on changing data.
+
+var num1 = 7;
+var num2 = 40;
+
+var sum1 = num1 + num2;
+var difference1 = num1 - num2;
+var difference2 = num2 - num1;
+
+// Defining Variables again.
+var createdVariable;
+createdVariable = 100;
+
+// createdVariable was already defined;
+// var createdVariable = 100;
+
+// Order of Operations
+
+// Use PEMDAS math method
+var someValue = 10 - 36 / 6 * 3;
+// 8, 
+
+// 8, -8
+
+console.log(someValue);
