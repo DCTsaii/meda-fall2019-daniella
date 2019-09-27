@@ -2,7 +2,8 @@
 // This is a single line comment.
 
 /*
-This is a multi-line
+This is a 
+multi-line
 comment!
 */
 
@@ -14,6 +15,7 @@ console.log("I'm fine, thanks!");
 // Basic Datatypes of JavaScript
 
 // String Datatype
+// strings has to be in quotation, example bellow
 "This is a string of characters";
 'This is also a string';
 "Yet another string!"
@@ -35,6 +37,7 @@ false;
 
 // Creating a variable (variable name is not supposed to be wrapped in quotes);
 // Syntax: var nameOfVariable;
+// variable hold data, the keyword to create a variable is: var
 var message;
 
 // the equal sign = means you're assigning a value
@@ -55,6 +58,8 @@ var variable2 = 1000009;
 var variable3 = false;
 
 console.log(variable1);
+
+// console can take multiple variable by splitting with a coma.
 console.log(variable2, variable3);
 
 // camelCase is the most popular to writing variables. Example: myVariableIsImportant, anotherVariableName
@@ -87,7 +92,7 @@ console.log(value2);
 - subtraction
 / division
 * multiplication
-% modulo
+% modulo (useful in rare cases)
 */
 
 var sum = 39 + 74 + 1 + 4 + 300 + 3999;
@@ -103,7 +108,7 @@ var diff = true / "string";
 var other = "another string" * 100;
 */
 
-// The + operator has two usages. The second one is called concatination.
+// The + operator has two usages. The second one is called: Concatination.
 
 var wholeSentence = "My name is " + "Eduardo!";
 console.log(wholeSentence);
@@ -136,6 +141,10 @@ createdVariable = 100;
 
 // Use PEMDAS math method (division, multiplication, addition and subtraction)
 var someValue = 10 - 36 / 6 * 3;
+
+// don't use parentesis because it doesnt have a meaning in javascrip
+var exampleParen = ((((7))));
+var example4 = (10);
 // 8, 
 
 // 8, -8
@@ -146,7 +155,7 @@ var otherValue = 10 + (10 + ( (3 + 4) * 2 ));
 var otherValue2 = 34;
 
 // If Else statement
-// lowcase if
+// always write with lowcase: if
 
 if (true) {
     console.log("this is ture!");
@@ -182,6 +191,7 @@ if (false) {}
 "hello" == 100; // false
 
 100 > 50; // true
+// >= greater than equal to
 100 >= 100; // true
 101 <= 100; // false
 1 > 10; // false
@@ -197,7 +207,7 @@ true != true; // false
 
 false == false; // true
 
-var age = 100029;
+var age = 10;
 
 if (age >= 21) {
     console.log("Congrats, you can now drink soda.")
