@@ -1,4 +1,3 @@
-
 // This is a single line comment.
 
 /*
@@ -32,11 +31,13 @@ console.log("I'm fine, thanks!");
 // you can do math with these numbers
 
 // Boolean Datatype (keywords)
+// Because of nature of computers, turn things on and off
 true;
 false;
 
 // Creating a variable (variable name is not supposed to be wrapped in quotes);
 // Syntax: var nameOfVariable;
+// variable is temporary, it doesn't save
 // variable hold data, the keyword to create a variable is: var
 var message;
 
@@ -79,6 +80,7 @@ var y = 10;
 
 var value1 = 100;
 
+// assaign a variable value to another
 var value2 = value1;
 
 console.log(value2);
@@ -93,6 +95,7 @@ console.log(value2);
 / division
 * multiplication
 % modulo (useful in rare cases)
+** Exponentient (check out online)
 */
 
 var sum = 39 + 74 + 1 + 4 + 300 + 3999;
@@ -109,7 +112,7 @@ var other = "another string" * 100;
 */
 
 // The + operator has two usages. The second one is called: Concatination.
-
+// Concatination is useful because you can break sentences apart and glue them together.
 var wholeSentence = "My name is " + "Eduardo!";
 console.log(wholeSentence);
 
@@ -139,7 +142,7 @@ createdVariable = 100;
 
 // Order of Operations
 
-// Use PEMDAS math method (division, multiplication, addition and subtraction)
+// Use PEMDAS math method (parentesis, division, multiplication, addition and subtraction)
 var someValue = 10 - 36 / 6 * 3;
 
 // don't use parentesis because it doesnt have a meaning in javascrip
@@ -156,6 +159,7 @@ var otherValue2 = 34;
 
 // If Else statement
 // always write with lowcase: if
+// What does if statement do? it will only run if the condition is true. If it's false, it will not run.
 
 if (true) {
     console.log("this is ture!");
@@ -178,7 +182,6 @@ if (false) {}
 != Not equal to
 ! Flip Boolean
 */
-
 
 10 == 100; // false
 

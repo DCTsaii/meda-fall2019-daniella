@@ -2,10 +2,13 @@ console.log("Hello World");
 
 //if statement does not require semicolon ;
 // in the parentisis we need a boolean
+// if only runs if the condition is true
 if (true) {
 
     console.log("this code block ran because the condition was true");
-
+// else does not need a condition to run.
+// else only trigger as a backup plan/option if everything fails
+// else is generally used only the if statement fails to run
 } else {
     console.log("this code block ran because the condition was false");
 
@@ -47,6 +50,21 @@ if (age == 0) {
     console.log ("We don't know else.");
 }
 
+
+// if () then {}
+// else if () then {}
+
+// if (true) then {console.log (); }
+
+// if () then {}
+// else () {}
+
+// if () then {}
+// else if () then {}
+// else () {}
+
+
+
 // IF, ELSE, IF
 // if () {} else if () {}
 
@@ -55,6 +73,7 @@ if (age == 0) {
 
 
 // OR Operator written as || 
+// OR either side can be true or false
 
 if ( true || true) {
     console.log ("Either was true!");
