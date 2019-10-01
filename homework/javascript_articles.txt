@@ -1,0 +1,11 @@
+Homework find a article about following topics and share it with the class.
+- Type Coercion
+- Parameters vs. Arguments
+
+1) About Type Coercion: https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion
+2) Understanding Coercion: https://hackernoon.com/understanding-js-coercion-ff5684475bfc
+3) YouTube: https://www.youtube.com/watch?v=z4-8wMSPJyI
+
+1) The differences between Parameters and Arguments: https://www.differencebetween.com/difference-between-argument-and-vs-parameter/
+2) article 2: https://stackoverflow.com/questions/3716797/javascript-named-function-parameters-vs-arguments-object
+3) YouTube: https://www.youtube.com/watch?v=zkc417YapfE

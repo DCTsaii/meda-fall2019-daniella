@@ -30,7 +30,7 @@ function myMathFunction() {
 myMathFunction();
 
 
-// Parameters is values we can pass to functions. Use the same code to many different things.
+// Parameters is values we can pass to functions.
 // data goes inside the parenthesis () you don't need to write var because the () is design to store variable
 
 function mathify ( firstNumber ) {
@@ -42,5 +42,6 @@ function mathify ( firstNumber ) {
 }
 
 // call function to run using different values, values inside () 
+// what's inside () is an argument, example bellow
 mathify(100)
 mathify(1000)
