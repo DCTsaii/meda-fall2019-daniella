@@ -115,6 +115,11 @@ console.log(floatNumber);
 // example of comples code that generates a number between 1 and 10 and sends it directly to the console.
 console.log ( Math.floor( ( Math.random() * 10 ) + 1 ) );
 
+// String function: .charAT and indexOf
+
+var text = "this is a very long sentence"
+text.charAt (34);
+
 // .charAt() will call out the letter from whatver number inside the argument
 console.log("Hello World!".charAt(7)); // Finds the character at position 7 (starting from 0, SPACE counts) and sends that character to the console.
 
@@ -122,4 +127,17 @@ console.log("Hello World!".charAt(7)); // Finds the character at position 7 (sta
 // indexOf basically calls out the NUMBER from whatever LETTER inside the argument.
 console.log ( "Hello World!".indexOf("l")) ; // Finds the number chracter position for l.
 
-console.log ( "Hello World!".indexOf("h")) ; // this example will give a negative -1 because there is not a lowcase h in "Hello World!"
+console.log ( "Hello World!".indexOf("h")) ; // this example will give a negative -1 because there is no lowcase h in "Hello World!"
+
+// A method is a function that belongs to a Object.
+// Object.method();
+
+// A property is a value stored in an Object.
+// Object.property
+
+// Pi number
+Math.PI;
+
+// Length of a string.
+"This is somewhat long.".lenght; // 22
+
