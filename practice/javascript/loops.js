@@ -1,6 +1,6 @@
 // 3 Types of loops:
-// Do While Loop - Most common
-// For Loop - Common
+// Do While Loop - Common
+// For Loop - Most Common
 // While Loop - Least common
 // .foreach() - Not covered
 
