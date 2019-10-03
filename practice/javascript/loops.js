@@ -40,7 +40,7 @@ do {
     // i = i + 1; if added here it will start at 1
     
     // Pull a character based on the current loop number (i) using the charAt function.
-    var character = stringToTest.charAt(1);
+    var character = stringToTest.charAt(i);
      
     // Add a 1 to the counter (1).
     i = i + 1; // if added here it will start at 0
@@ -55,3 +55,20 @@ do {
     }
 // After running the code check loopContinue to see if we should run this loop again.
 } while (loopContinue);
+
+// Do While Loop
+// do is a keyword
+// {} is a code block, the code block will always run first
+// (); is a condition, it will run after the code block
+
+// do {} while();
+
+// For Loop
+// for lopp, condition will run first, code block will run second
+
+// For () {}
+
+// For While
+// for lopp, condition will run first, code block will run second
+
+// While () {}
