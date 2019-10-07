@@ -33,9 +33,12 @@ console.log(weekNames);
 // unshift(); NEEDS an argument to add an element
 // Unshift adds to the start of an array.
 
+// weekName.indexOf("Tuesday");
+// Unshift adds to the start of an array.
+// weekNames.unshift("Monday");
+// weekNames.unshift("Monday", "Tuesday");
 
-weekNames.unshift("Monday");
-console.log(weekNames);
+console.log(weekName);
 
 // You can ADD multiple elements in the same line, ORDER MATTERS, example bellow:
 // weekNames.unshift("Monday, Tuesday, Wednesday, etc..");
@@ -110,9 +113,11 @@ for (var counter = 0; counter < 10; counter = counter + 1) {
 }
 
 // Get a copy from Eduardo to replace this code for lenght example
-var name = ["Alpha", "Sam", "Georgio", "Geirmo", "Horacio", "Batman", "Bill", "Mackaw", "Robin"];
+var names = ["Alpha", "Sam", "Max", "Georgio", "Giermo", "Horacio", "Batman"];
 
-for (var counter = 0; counter < 10; counter = counter + 1) {
-    
-    console.log("Hello" + name[counter] + "!"); 
+                              //Instead of 10, we use .length so we always loop for the exact number of items of the names array.
+for (var counter = 0; counter < names.length; counter = counter + 1) {
+    console.log("Hello " + names[counter] + "!");
 }
+
+// for (var i = 0; i < 10; i++) {} 

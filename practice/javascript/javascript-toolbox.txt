@@ -1,0 +1,9 @@
+(Programming) Javascript Toolbox:
+- variables
+- if statements {}
+- for loop {}
+- do while loop {}
+- while loop {}
+- functions {}
+- arrays
+- objects
