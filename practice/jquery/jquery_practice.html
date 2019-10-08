@@ -73,19 +73,30 @@
     } );
 
     $("body").append(`
-    <div id='container'> 
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-        `);
+                <div id='container'>
+                    <div id='box'></div>
+                    <div></div>
+                    <div></div>
+                </div`);
 
+            $("#container").css("width", "500px");
+            $("#container").css("background-color", "lightblue");
+            $("#container").css("height", "500px");
 
-        $("#container").css("width", "500px");
-        $("#container").css("background-ground", "light-blue");
-        $("#container").css("height", "500px");
+            $("#container div").css("width", "150px");
+            $("#container div").css("height", "150px");
+            $("#container div").css("margin", "8px");
+
+            $("#container div").css("background-color", "wheat");
+        });
         
 
+        // END OF ADDING HTML AND CSS
+
+        // START OF BUTTON EVENTS
+
+        $("body").prepend("<button id='createText'>Click Me</buttom>")
+            $("createText").click
     
     });  
   </script>
