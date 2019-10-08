@@ -1,7 +1,9 @@
 var employees = [] // Array holding all of our employees
 
+// What's inside the curly braces {} for objects is not a codeblock, it's a value.
+
 var employee1 = {
-    "first Name": "Eduardo", // If you want space in your keywords, you need to wrap it in quotes.
+    "first Name": "Eduardo", // If you want space in your keywords/properties, you need to wrap it in quotes example "fist Name"
     lastName: "Garcia",
     age: 29,
     salary: 70000,
@@ -54,10 +56,16 @@ employees[0].status; // Example explantation: To grab the Status of Eduardo
 // employees[0].first Name
 
 // Bracket Notation access for Objects and Arrays.
+// if you have a keyword/properties with space in it, you have to use the bracket notation.
 employees[0]["status"];
 employees[0]["first Name"];
 
-employee3.age;
-employee3["age"];
+
+var something = "age"
+// you can use a variable in z bracket noation
+employee3[something];
+
+// You cannot use a variable in a dot notation
+employee3.something; // not gonna work .something
 
 

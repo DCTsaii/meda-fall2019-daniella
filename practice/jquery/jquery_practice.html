@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>jQuery Practice</title>
+  
+  <style>
+      body {
+          background-color: #ecf0f1;
+          color: #e67e22;
+      }
+  </style>
+
+  <script src="jquery-3.4.1.min.js" ></script>
+</head>
+
+<body>
+    <p>jQuery Practice!</p>
+
+
+
+  <script>
+
+      // function someFunction() {
+      //  console.log("hello There!");
+      // }
+      // $(document).ready(someFunction); 
+
+    $(document).ready(function () {
+     //ALL JS and jQuery should go here except for custome function defintions.
+
+     // ADD AND REMOVE HTML START
+
+     // .html() Changes (replaces) the html contents of the selected elements
+     // .html() <-- what goes inside () is a string
+    $("body").html("<p>How are we doing!</p>"); // This is how you write html inside a string
+    $("body").html("<h1>This is an H1 element</h1>"); // This .html replaced/overwrite the text above
+
+    // .append() Adds to the end of the html contents of the selected elements.
+    // .append() <-- what goes inside () is a string
+    $("body").append("<p id='forRemoval'>This should be after an H1 element</p>");
+    
+    // .prepend() Adds to the beginning of the html contents of the selected elements.
+    // .prepend() <-- what goes inside () is a string
+    $("body").prepend("<p>This is before all the content</p>");
+
+    // .remove() Removes the selected elements(s);
+    // $("p").remove(); // removes all the p elements 
+
+    //to remove selected element(s) add class to it
+    $("#forRemoval").remove();
+
+    // ADD AND REMOVE HTML END
+    
+    // .css() Lets you modify the css of the selected element.
+    // Uses 2 STRINGS: First string is the CSS property, second string is the CSS property value.
+    $("h1").css("color", "fuchsia"); // to modify the H1 color, use 2 strings: color and fuchsia
+    $("h1").css("font-size", "72px");
+    
+    // Also can use OBJECTS to provide many CSS properties at once.
+    // Example bellow:
+    $("p").css( {
+        color: "red",
+        // background-color will not work without quotes wrapped around it because JS sees the - (dash sign) as a mathematical sign. So any elements with a dash needs to be wrapped with quotes.
+        "background-color": "wheat",
+        "font-family": "'Arial', 'Helvetica', sans-serif",
+        border: "1px solid black",
+        "font-weight": "700",
+        "text-align": "center",
+        padding: "40px"
+    } );
+
+    $("body").append(`
+    <div id='container'> 
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+        `);
+
+
+        $("#container").css("width", "500px");
+        $("#container").css("background-ground", "light-blue");
+        $("#container").css("height", "500px");
+        
+
+    
+    });  
+  </script>
+</body>
+</html>
