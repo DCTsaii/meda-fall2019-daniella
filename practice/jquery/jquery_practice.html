@@ -88,7 +88,7 @@
             $("#container div").css("margin", "8px");
 
             $("#container div").css("background-color", "wheat");
-        });
+
         
 
         // END OF ADDING HTML AND CSS
@@ -97,6 +97,24 @@
 
         $("body").prepend("<button id='createText'>Click Me</buttom>")
             $("createText").click
+
+
+             // .click()  annonymous function
+         $("#createText").click(function () {
+             $("body").prepend("<p>The button was clicked!</p>");
+             $("#createText").remove();
+             $("body").css("background", "pink");
+             $("h1").css("color", "coral");
+
+             
+
+             $("body").append("<button id='removeOtherButton'>Remove Other Button!</button>");
+             $("#removeOtherButton").click(function() {
+                 $("#createText").remove();
+
+             });
+         });
+         
     
     });  
   </script>
