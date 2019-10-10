@@ -1,0 +1,134 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IBM+Plex+Mono|Source+Code+Pro&display=swap');
+
+#container {
+    background-color:maroon;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin: 0 auto;
+}
+
+
+header, main, footer {
+    margin:10px;
+}
+
+.nav {
+    background-color:whitesmoke;
+    font-family: "IBM Plex Mono", "Source Code Pro", monospace;
+    font-size: 16px;
+    text-align:center;
+}
+
+footer {
+    font-family: "IBM Plex Mono", "Source Code Pro", monospace;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Header Start */ 
+
+header h1 {
+    background-color:whitesmoke;
+    height:100px;
+    margin-top: 0;
+    font-family: "Source Code Pro", monospace;
+    font-size:50px;
+    text-align: center;
+
+}
+
+
+/* Header End */
+
+/* Main Start */ 
+
+
+
+#main-gallery {
+    background-color:whitesmoke;
+    height: 300px;
+    margin:10px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    /* Testing display bloack */
+    display: inline-block;
+}
+
+#main-gallery > div {
+    background-color:whitesmoke;
+    width:30%;
+    height:100%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#japan-gallery {
+    background-color:whitesmoke;
+    height: auto;
+    margin:10px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#japan-gallery > div {
+    background-color:whitesmoke;
+    width:30%;
+    height:auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+#france-gallery {
+    background-color:whitesmoke;
+    height: auto;
+    margin:10px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#france-gallery > div {
+    background-color:whitesmoke;
+    width:30%;
+    height:auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+#mexico-gallery {
+    background-color:whitesmoke;
+    height: auto;
+    margin:10px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#mexico-gallery > div {
+    background-color:whitesmoke;
+    width:30%;
+    height:auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/* Main End */
+
+/* Footer Start */
+
+footer {
+    background-color: whitesmoke;
+    height: 50px;
+    margin-bottom: 0;
+
+}
+
+
+/* Footer End */
+

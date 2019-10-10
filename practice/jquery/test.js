@@ -1,6 +1,6 @@
 // ADDITIONAL OUTCOME FOR LATE
 
-$("#story").append("<p>You're feeling a little hungry! You spotted a exit sign for food 5 miles away... </p>");
+    $("#story").append("<p>You're feeling a little hungry! You spotted a exit sign for food 5 miles away... </p>");
 
     $("#choices").append("<button id='exit'>Exit</button>");
     $("#choices").append("<button id='keep_driving'>Keep driving.</button>");
@@ -16,6 +16,18 @@ $("#story").append("<p>You're feeling a little hungry! You spotted a exit sign f
         $("#exit").remove();
         $("keep_driving").remove();
     });
+    // CSS 
+    $("#exit").css("background-color", "#BFBA73");
+    $("#exit").css("font-size", "18px");
+    $("#exit").css("font-family", "monospace");
+
+    $("#keep_driving").css("background-color", "#BFBA73");
+    $("#keep_driving").css("font-size", "18px");
+    $("#keep_driving").css("font-family", "monospace");
+
+    // END
+
+    // START
 
     $("#story").append("<p>You have arrived at Crescent City!</p>");
 
@@ -30,11 +42,26 @@ $("#story").append("<p>You're feeling a little hungry! You spotted a exit sign f
 
     $("#campground").click(function() { 
         $("#story").append("<p>Since you arrived early, you were able to find a very good campground with running water public restrooms and shower rooms. And you settled down in a very nice spacious and somewhat private site near by a river. You made it through your day 1 in this adventure.</p>");
-        $("#exit").remove();
-        $("keep_driving").remove();
+        $("#hotel").remove();
+        $("campground").remove();
     });
 
+    // CSS
+    $("#hotel").css("background-color", "#BFBA73");
+    $("#hotel").css("font-size", "18px");
+    $("#hotel").css("font-family", "monospace");
+
+    $("#campground").css("background-color", "#BFBA73");
+    $("#campground").css("font-size", "18px");
+    $("#campground").css("font-family", "monospace");
+
+    //END
+
+
+
     // ADDITIONAL OUTCOME FOR LATE
+
+    // START
 
     $("#story").append("<p>You have arrived at Crescent City in the evening!</p>");
 
@@ -52,4 +79,15 @@ $("#story").append("<p>You're feeling a little hungry! You spotted a exit sign f
         $("#late_hotel").remove();
         $("late_campground").remove();
     });
+
+    // CSS
+    $("#late_hotel").css("background-color", "#BFBA73");
+    $("#late_hotel").css("font-size", "18px");
+    $("#late_hotel").css("font-family", "monospace");
+
+    $("#late_campground").css("background-color", "#BFBA73");
+    $("#late_campground").css("font-size", "18px");
+    $("#late_campground").css("font-family", "monospace");
+
+    // END
 
