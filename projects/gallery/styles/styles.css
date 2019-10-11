@@ -51,7 +51,7 @@ header h1 {
     background-color:whitesmoke;
     height: 300px;
     margin:10px;
-    margin: 0 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     text-align: center;
     padding-bottom: 20px;
     /* Testing display bloack */
@@ -64,6 +64,7 @@ header h1 {
     height:100%;
     display: inline-block;
     margin: 10px;
+    text-align: center;
 }
 
 #japan-gallery {

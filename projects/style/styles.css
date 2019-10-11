@@ -74,11 +74,10 @@ header h1 {
 #projects h2 {
     color: #8FA6A1;
     font-family: "Source Code Pro", monospace;
-    height: auto;
+    
     text-align:center;
     background-color:#3D403A;
-    padding: 10px;
-    margin: 10px;
+    
 }
 
 #gallery {
